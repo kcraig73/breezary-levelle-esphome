@@ -280,6 +280,14 @@ When the timer expires:
 
 The timer does not survive an ESP reboot or loss of power.
 
+### Timer cancellation behavior
+
+Fan OFF and fan-speed commands cancel the local timer. Physical remote speed changes were also verified to cancel it.
+
+Lighting controls do not cancel the timer.
+
+During final physical testing, a direction change did not cancel the active timer, although the current YAML contains direction-related timer-cancellation logic. This discrepancy is documented in [`docs/testing.md`](docs/testing.md) and has intentionally not been changed without further testing.
+
 ---
 
 ## Flashing
