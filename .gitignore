@@ -1,0 +1,17 @@
+secrets.yaml
+.esphome/
+build/
+
+*.bin
+*.uf2
+*.rbl
+*.dump
+*.flash
+*.backup
+
+factory*
+*factory*.bin
+
+.DS_Store
+.vscode/
+.idea/
