@@ -378,6 +378,6 @@ Programming and UART work should be performed with the Wi-Fi module electrically
 
 ## License
 
-This project is intended to be released under the MIT License.
+This project is released under the MIT License.
 
 See [`LICENSE`](LICENSE).
